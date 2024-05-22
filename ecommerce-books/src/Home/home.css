@@ -1,0 +1,33 @@
+.navbar-container{
+    padding: 15px;
+    background-color: rgb(255, 136, 67);
+}
+.navbar-title-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.navbar-li{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-li:hover{
+    scale: 1.2;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
